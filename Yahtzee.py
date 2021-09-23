@@ -1,8 +1,5 @@
 import random
 
-
-
-
 # Establish the function for rolling the dice
 def rollDice(n):
     round = []
@@ -366,7 +363,8 @@ while True:
                 addPoints = 40
                 print('Large Straight!')
                 break
-            # Scoring for Chance
+                
+        # Scoring for Chance
         if addPoints == 0:
             addPoints = tally['one'] * 1 + tally['two'] * 2 + tally['three'] * 3 + tally['four'] * 4 + tally['five'] * 5 + tally['six'] * 6
             print('Score for chance')
@@ -380,13 +378,3 @@ while True:
         print('SCORE:')
         print(score)
         input()
-
-
-
-
-
-
-
-
-
-
